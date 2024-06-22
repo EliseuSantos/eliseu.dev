@@ -1,14 +1,4 @@
 /*------------------------------------------------------------------
-[Master Stylesheet - TailwindCSS src file]
-
-Project Name  :     Minfo - Tailwind CSS Personal Resume/vCard NextJs Template
-Version       :     1.1
-Last Update   :     03 March 2024
-Author	      :	    themestransimit
-Support	      :	    themestransimit@gmail.com
-------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
 [Table of contents]
 
 1.  Tailwind's Base styles 
@@ -148,14 +138,14 @@ Support	      :	    themestransimit@gmail.com
 /*------------------------------------------------------------------
 [8. Template Sidebar Custom Style]
 ------------------------------------------------------------------*/
-.minfo__sidebar {
+.eliseu__sidebar {
   -webkit-clip-path: url(#my-clip-path);
   clip-path: url(#my-clip-path);
 }
-.minfo__sidebar__wrapper .sidebar__menu::-webkit-scrollbar {
+.eliseu__sidebar__wrapper .sidebar__menu::-webkit-scrollbar {
   @apply hidden;
 }
-.minfo__sidebar__wrapper .sidebar__menu {
+.eliseu__sidebar__wrapper .sidebar__menu {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -203,6 +193,3 @@ html.dark .portfolio_wrapper .info span {
 .animate-spin {
   animation: spin 2s linear infinite;
 }
-/*------------------------------------------------------------------
-                THANKS FOR HAVING WITH MINFO
-------------------------------------------------------------------*/
