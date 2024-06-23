@@ -11,18 +11,18 @@ import Footer from "@/src/components/shared/Footer";
 import Layout from "@/layout/Layout";
 
 export default async function Home() {
-  return (
-    <Layout>
-      <Hero />
-      <AboutMe />
-      <Service />
-      <Skills />
-      <Resume />
-      <Portfolio />
-      <Blog />
-      <Testimonial />
-      <ContactMe />
-      <Footer />
-    </Layout>
-  );
+    return (
+        <Layout>
+            <Hero/>
+            <AboutMe/>
+            <Service/>
+            <Skills/>
+            <Resume/>
+            <Portfolio/>
+            <Blog/>
+            <Testimonial/>
+            <ContactMe/>
+            <Footer/>
+        </Layout>
+    );
 }

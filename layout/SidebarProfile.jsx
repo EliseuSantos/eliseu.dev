@@ -68,7 +68,7 @@ const SidebarProfile = () => {
 
                 <div className="px-4 py-5 lg:py-6 lg:px-6 rounded-2xl md:px-8 bg-flashWhite dark:bg-metalBlack">
                     <div className="text-sm font-medium text-black dark:text-white">
-                        Skills
+                        Habilidades
                     </div>
                     <div className="flex items-center justify-between my-4 space-x-4 skills_circle">
                         {userDetailsSidebar?.skillsInfo?.map((item) => (
@@ -155,7 +155,7 @@ const SidebarProfile = () => {
                             target="_blank"
                             className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
                         >
-                            DOWNLOAD CV
+                            BAIXAR CV
                             <span className="animate-bounce">
                 <IoCloudDownloadOutline size={18}/>
               </span>

@@ -1,17 +1,13 @@
 import logo from "@/public/assets/img/site-logo.svg";
 import {IoHomeOutline} from "react-icons/io5";
-import {CiUser} from "react-icons/ci";
 import {IoBriefcaseOutline} from "react-icons/io5";
 import {SlGraduation} from "react-icons/sl";
 import {
     FaRegFileAlt,
     FaRegEnvelope,
-    FaFacebook,
     FaLinkedin,
     FaTwitter,
-    FaInstagram,
 } from "react-icons/fa";
-import {BsListTask} from "react-icons/bs";
 import {LiaBlogSolid} from "react-icons/lia";
 import {BiCommentDetail} from "react-icons/bi";
 import {FaRegUser} from "react-icons/fa6";
@@ -27,7 +23,7 @@ export const siteSettings = {
     headersMenu: [
         {
             id: 1,
-            title: "Home",
+            title: "Início",
             selector: "#home",
             url: "/",
             Icon: <IoHomeOutline/>,
@@ -35,7 +31,7 @@ export const siteSettings = {
         },
         {
             id: 2,
-            title: "About",
+            title: "Sobre",
             selector: "#about",
             url: "/",
             Icon: <FaRegUser/>,
@@ -43,7 +39,7 @@ export const siteSettings = {
         },
         {
             id: 3,
-            title: "Service",
+            title: "Serviços",
             selector: "#service",
             url: "/",
             Icon: <IoBriefcaseOutline/>,
@@ -51,7 +47,7 @@ export const siteSettings = {
         },
         {
             id: 4,
-            title: "Skills",
+            title: "Habilidades",
             selector: "#skill",
             url: "/",
             Icon: <SlGraduation/>,
@@ -59,7 +55,7 @@ export const siteSettings = {
         },
         {
             id: 5,
-            title: "Resume",
+            title: "Curriculo",
             selector: "#resume",
             url: "/",
             Icon: <FaRegFileAlt/>,
@@ -67,7 +63,7 @@ export const siteSettings = {
         },
         {
             id: 6,
-            title: "Portfolio",
+            title: "Portfólio",
             selector: "#portfolio",
             url: "/",
             Icon: <MdFormatListBulleted/>,
@@ -83,7 +79,7 @@ export const siteSettings = {
         },
         {
             id: 8,
-            title: "Testimonial",
+            title: "Testemunho",
             selector: "#testimonial",
             url: "/",
             Icon: <BiCommentDetail/>,
@@ -91,7 +87,7 @@ export const siteSettings = {
         },
         {
             id: 9,
-            title: "Contact",
+            title: "Contato",
             selector: "#contact",
             url: "/",
             Icon: <FaRegEnvelope/>,

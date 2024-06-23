@@ -15,21 +15,45 @@ import {
 import {GrTasks} from "react-icons/gr";
 import {BiCheckDouble, BiCommentCheck} from "react-icons/bi";
 
-import figmaImage from "@/public/assets/img/skill/figma.svg";
-import webflowImage from "@/public/assets/img/skill/webflow.svg";
-import tailwindImage from "@/public/assets/img/skill/tailwind.svg";
-import htmlImage from "@/public/assets/img/skill/html.svg";
-import cssImage from "@/public/assets/img/skill/css.svg";
-import jsImage from "@/public/assets/img/skill/js.svg";
-import jqueryImage from "@/public/assets/img/skill/jquery.svg";
+import db from "@/public/assets/img/partners/db.svg";
+import willbank from "@/public/assets/img/partners/willbank.jpg";
+import invillia from "@/public/assets/img/partners/Invillia logo.png";
+import lab3dvlp from "@/public/assets/img/partners/lab3dvlp.png";
+import pagseguro from "@/public/assets/img/partners/pagseguro.webp";
+import vagalume from "@/public/assets/img/partners/vagalume.jpg";
+import vivitech from "@/public/assets/img/partners/vivitech.jpeg";
+import medlynx from "@/public/assets/img/partners/medlynx.png";
+import carrefour from "@/public/assets/img/partners/carrefour.png";
 
-import partner1Image from "@/public/assets/img/partners/logo1.svg";
-import partner2Image from "@/public/assets/img/partners/logo2.svg";
-import partner3Image from "@/public/assets/img/partners/logo3.svg";
-import partner4Image from "@/public/assets/img/partners/logo4.svg";
+import aws from "@/public/assets/img/tecnology/aws.webp";
+import bun from "@/public/assets/img/tecnology/bun.jpg";
+import gcp from "@/public/assets/img/tecnology/gcp.png";
+import graphql from "@/public/assets/img/tecnology/graphql.png";
+import kafka from "@/public/assets/img/tecnology/kafka.png";
+import nestjs from "@/public/assets/img/tecnology/nestjs.jpg";
+import nodejs from "@/public/assets/img/tecnology/nodejs.png";
+import pact from "@/public/assets/img/tecnology/pact.png";
+import reactjs from "@/public/assets/img/tecnology/reactjs.png";
+import singlespa from "@/public/assets/img/tecnology/singlespa.png";
+import solidity from "@/public/assets/img/tecnology/solidity.svg";
+import spring from "@/public/assets/img/tecnology/spring.png";
+import web3 from "@/public/assets/img/tecnology/web3.webp";
+import laravel from "@/public/assets/img/tecnology/laravel.png";
+import django from "@/public/assets/img/tecnology/django.png";
 
-import userImage from "@/public/assets/img/user-sidebar-thumb.png";
-import userImageLight from "@/public/assets/img/user-sidebar-thumb-light.png";
+import backend from "@/public/assets/img/skill/backend.png";
+import blockchain from "@/public/assets/img/skill/blockchain.png";
+import cloud from "@/public/assets/img/skill/cloud.png";
+import database from "@/public/assets/img/skill/database.png";
+import devops from "@/public/assets/img/skill/devops.png";
+import frontend from "@/public/assets/img/skill/frontend.png";
+import iot from "@/public/assets/img/skill/iot.png";
+import scrum from "@/public/assets/img/skill/scrum.png";
+import tests from "@/public/assets/img/skill/tests.png";
+
+
+import userImage from "@/public/assets/img/user-sidebar-thumb.jpg";
+import userImageLight from "@/public/assets/img/user-sidebar-thumb-light.jpg";
 
 import portfolioImage1Thumb from "@/public/assets/img/portfolio/portfolio-img1.png";
 import portfolioImage1 from "@/public/assets/img/portfolio/portfolio-img1.png";
@@ -60,31 +84,32 @@ import {IoHomeOutline} from "react-icons/io5";
 export const introduce = {
     iconBox: {
         Icon: <IoHomeOutline className="text-theme" size={14}/>,
-        title: "HOME",
+        title: "Início",
     },
     heading: {
-        heading1: "Shaping the",
-        heading2: "Digital World",
+        heading1: "Transformando o",
+        heading2: "Mundo Digital",
     },
     desc: (
         <p>
-            I am a{" "}
+            Eu sou{" "}
             <span className="font-medium text-black dark:text-white/90">
-        Develop the Future
+        Desenvolvedor Fullstack
       </span>{" "}
-            As a passionate Fullstack Developer, I bring together the best of frontend and backend technologies to
-            create seamless, efficient, and powerful digital solutions.
+            apaixonado, com mais de 10 anos de experiência na área, reúno o melhor das
+            tecnologias de frontend e backend para criar
+            soluções digitais eficientes, integradas e poderosas.
         </p>
     ),
     jobs: [
         {
             id: 1,
-            title: "Available for work",
+            title: "Disponível para trabalho",
             icon: <BiCheckDouble size={25} className="text-theme mr-1"/>,
         },
         {
             id: 2,
-            title: "Full Time Job",
+            title: "Consultoria MFE",
             icon: <BiCheckDouble size={25} className="text-theme mr-1"/>,
         },
     ],
@@ -92,43 +117,48 @@ export const introduce = {
 
 export const partners = [
     {
-        imgUrl: partner1Image,
+        imgUrl: willbank,
         altText: "Will Bank",
         link: "#",
     },
     {
-        imgUrl: partner2Image,
-        altText: "PagSeguro",
+        imgUrl: pagseguro,
+        altText: "PagBank",
         link: "#",
     },
     {
-        imgUrl: partner3Image,
+        imgUrl: invillia,
         altText: "Invillia",
         link: "#",
     },
     {
-        imgUrl: partner4Image,
+        imgUrl: lab3dvlp,
         altText: "Lab3DVLP",
         link: "#",
     },
     {
-        imgUrl: partner2Image,
+        imgUrl: vagalume,
         altText: "Vagalume Midia",
         link: "#",
     },
     {
-        imgUrl: partner4Image,
+        imgUrl: vivitech,
         altText: "ViViTECH",
         link: "#",
     },
     {
-        imgUrl: partner2Image,
-        altText: "Tokem Group",
+        imgUrl: db,
+        altText: "<DB>",
         link: "#",
     },
     {
-        imgUrl: partner4Image,
+        imgUrl: medlynx,
         altText: "MedLynx Systems",
+        link: "#",
+    },
+    {
+        imgUrl: carrefour,
+        altText: "Carrefour",
         link: "#",
     },
 ];
@@ -136,68 +166,125 @@ export const partners = [
 export const technologies = [
     {
         id: 1,
-        title: "Bun JS",
-        skill: "94",
+        title: "AWS",
+        logo: aws,
         url: "#",
     },
     {
-        id: 2,
+        id: 1,
+        title: "GCP",
+        logo: gcp,
+        url: "#",
+    },
+    {
+        id: 1,
         title: "NestJS",
-        skill: "98",
+        logo: nestjs,
         url: "#",
     },
     {
-        id: 3,
-        title: "NextJS",
-        skill: "90",
+        id: 1,
+        title: "Web 3.0",
+        logo: web3,
         url: "#",
     },
     {
-        id: 3,
-        title: "Angular",
-        skill: "90",
+        id: 1,
+        title: "Laravel",
+        logo: laravel,
         url: "#",
     },
     {
-        id: 3,
-        title: "Vue",
-        skill: "90",
+        id: 1,
+        title: "Graphql",
+        logo: graphql,
         url: "#",
     },
     {
-        id: 3,
-        title: "Svelte",
-        skill: "90",
+        id: 1,
+        title: "PACT",
+        logo: pact,
         url: "#",
     },
     {
-        id: 3,
+        id: 1,
+        title: "Solidity",
+        logo: solidity,
+        url: "#",
+    },
+    {
+        id: 1,
+        title: "BunJS",
+        logo: bun,
+        url: "#",
+    },
+    {
+        id: 1,
+        title: "NodeJS",
+        logo: nodejs,
+        url: "#",
+    },
+    {
+        id: 1,
+        title: "ReactJS",
+        logo: reactjs,
+        url: "#",
+    },
+    {
+        id: 1,
         title: "SingleSPA",
-        skill: "90",
+        logo: singlespa,
         url: "#",
     },
+    {
+        id: 1,
+        title: "Kafka",
+        logo: kafka,
+        url: "#",
+    },
+    {
+        id: 1,
+        title: "SpringBoot",
+        logo: spring,
+        url: "#",
+    },
+    {
+        id: 1,
+        title: "Django",
+        logo: django,
+        url: "#",
+    }
 ];
 
 export const userDetails = [
     {
-        field: "Phone",
+        field: "Telefone",
         value: "‪+55 79 98116‑0655‬",
+        link: "tel:‪+5579981160655‬"
     },
     {
         field: "Session",
         value: "05a980d53e5da5cc501f504a55fa1d2cc8ad9451453a5f3fa7ad8e73981ce2a63d",
+        link: "https://getsession.org"
     },
     {
-        field: "Language",
+        field: "Idioma",
         value: "Portuguese, English(Basic)",
     },
     {
         field: "Email",
         value: "s.eliseu@proton.me",
+        link: "mailto:‪s.eliseu@proton.me‬"
     },
     {
         field: "GitHub",
         value: "github.com/EliseuSantos",
+        link: "https://github.com/EliseuSantos"
+    },
+    {
+        field: "Linkedin",
+        value: "linkedin.com/in/eliseusantos",
+        link: "https://www.linkedin.com/in/eliseusantos"
     },
 ];
 
@@ -205,21 +292,21 @@ export const userDetailsSidebar = {
     userImage: userImage,
     userImageLight: userImageLight,
     userName: "Eliseu",
-    designations: ["Software Developer", "Muisic", "Blockchain Developer"],
+    designations: ["Software Developer", "Musician", "Blockchain Developer"],
     basicInfo: [
         {
             id: 1,
-            field: "Residence",
-            value: "Brazil",
+            field: "País",
+            value: "Brasil",
         },
         {
             id: 2,
-            field: "State",
+            field: "Estado",
             value: "Sergipe",
         },
         {
             id: 3,
-            field: "Age",
+            field: "Idade",
             value: "29",
         },
     ],
@@ -249,23 +336,23 @@ export const userDetailsSidebar = {
 
 export const projectExperiences = [
     {
-        title: "Years Of Experience",
-        count: 185,
+        title: "Anos de Experiência",
+        count: 10,
         postFix: true,
     },
     {
-        title: "Handled Projects",
+        title: "Projetos",
         count: 12,
         postFix: true,
     },
     {
-        title: "Open Source Libraries",
+        title: "Contribuição Open Source",
         count: 5,
         postFix: true,
     },
     {
-        title: "Awards Won",
-        count: 18,
+        title: "Prêmios conquistados",
+        count: 0,
         postFix: false,
     },
 ];
@@ -273,120 +360,184 @@ export const projectExperiences = [
 export const services = {
     servicesHeading: {
         icon: <FaBriefcase className="text-theme"/>,
-        title: "SERVICES",
-        heading: "My",
-        coloredHeading: "Services",
+        title: "SERVIÇOS",
+        heading: "Meus",
+        coloredHeading: "Serviços",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.",
+            "Foco em soluções completas e eficientes, prontas para uso e focadas na experiência do usuário, sempre buscando inovação, qualidade e segurança.",
     },
     servicesData: [
         {
-            id: 1,
-            number: "01",
-            title: "UI/UX Design",
-            desc: "I design products that are more than pretty. I make them shippable.",
-            icon: <UiUxIcon/>,
+            "id": 1,
+            "number": "01",
+            "title": "Desenvolvimento Web",
+            "desc": "Desenvolvo produtos que vão além da estética, tornando-os funcionais e prontos para lançamento.",
+            "icon": <WebDevIcon/>,
         },
         {
-            id: 2,
-            number: "02",
-            title: "Web Development",
-            desc: "I design products that are more than pretty. I make them shippable.",
-            icon: <WebDevIcon/>,
+            "id": 2,
+            "number": "02",
+            "title": "Consultoria",
+            "desc": "Especialista em MicroFrontEnd e otimização de performance e SEO.",
+            "icon": <SeoIcon/>,
         },
         {
-            id: 3,
-            number: "03",
-            title: "SEO / Marketing",
-            desc: "I design products that are more than pretty. I make them shippable.",
-            icon: <SeoIcon/>,
+            "id": 3,
+            "number": "03",
+            "title": "IoT/CFTV",
+            "desc": "Projetos completos de automação residencial e sistemas de CFTV eficientes.",
+            "icon": <UiUxIcon/>,
         },
         {
-            id: 4,
-            number: "04",
-            title: "Branding & Strategy",
-            desc: "I design products that are more than pretty. I make them shippable.",
-            icon: <BrandingIcon/>,
-        },
+            "id": 4,
+            "number": "04",
+            "title": "Smart Contracts",
+            "desc": "Desenvolvimento de contratos inteligentes seguros e eficientes.",
+            "icon": <BrandingIcon/>,
+        }
+
     ],
 };
 
 export const skills = {
     skillsHeading: {
         icon: <FaGraduationCap className="text-theme"/>,
-        title: "SKILLS",
-        heading: "My",
-        coloredHeading: "Advantages",
+        title: "HABILIDADES",
+        heading: "Minhas",
+        coloredHeading: "Habilidades",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            "Atuo com diversas tecnologias essenciais para o desenvolvimento moderno, garantindo a criação de produtos funcionais, eficientes e atualizados.",
     },
     skillsData: [
         {
-            image: figmaImage?.src,
+            image: frontend,
             percent: 90,
-            name: "Figma",
+            name: "Frontend (Web e Mobile)",
         },
         {
-            image: webflowImage?.src,
-            percent: 85,
-            name: "Webflow",
-        },
-        {
-            image: tailwindImage?.src,
+            image: backend,
             percent: 90,
-            name: "Tailwind",
+            name: "Backend (Javascript, Java, PHP, Python)",
         },
         {
-            image: htmlImage?.src,
-            percent: 95,
-            name: "HTML5",
+            image: cloud,
+            percent: 90,
+            name: "Plataformas de nuvem (AWS, GCP)",
         },
         {
-            image: cssImage?.src,
-            percent: 95,
-            name: "CSS3",
+            image: scrum,
+            percent: 90,
+            name: "Metodologias ágeis (Scrum, Kanban)",
         },
         {
-            image: jsImage?.src,
-            percent: 75,
-            name: "JavaScript",
+            image: database,
+            percent: 90,
+            name: "Banco de dados SQL e NoSQL (Postgres, Mysql, Mongo, Redis)",
         },
         {
-            image: jqueryImage?.src,
-            percent: 70,
-            name: "jQuery",
+            image: devops,
+            percent: 90,
+            name: "DevOps e automação (Docker, Terraform, Kubernetes, CI/CD)",
         },
-    ],
+        {
+            image: tests,
+            percent: 90,
+            name: "Segurança cibernética e testes automatizados",
+        },
+        {
+            image: blockchain,
+            percent: 90,
+            name: "Blockchain e contratos inteligentes (Solidity)",
+        },
+        {
+            image: iot,
+            percent: 90,
+            name: "Internet das Coisas (IoT) e automação residencial",
+        },
+
+    ]
+    ,
 };
 
 export const resume = {
     resumeHeading: {
         icon: <FaFolderOpen className="text-theme"/>,
-        title: "RESUME",
-        heading: "Work",
-        coloredHeading: "Experience",
+        title: "Currículo",
+        heading: "Minhas",
+        coloredHeading: "Experiência",
         description:
             "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
     },
     resumeData: [
         {
-            platform: "Envato Market",
-            duration: "Mar, 2022 - Current",
-            position: "Lead UX Designer",
+            platform: "Will Bank",
+            duration: "Junho, 2021 - Atualmente",
+            link: "https://www.willbank.com.br",
+            position: "Senior Software Engineer",
             description:
                 "Owing to advancements in product other designer technologies aute voluptate.",
         },
         {
-            platform: "Google",
-            duration: "2018 - 2022",
-            position: "UX Designer",
+            platform: "Agency PRO",
+            link: "https://agency-pro.com/",
+            duration: "Março, 2023 - Atualmente",
+            position: "Co-Founder",
             description:
                 "Owing to advancements in product other designer technologies aute voluptate.",
         },
         {
-            platform: "Apple",
-            duration: "2014-2018",
-            position: "Human Interface Designer",
+            platform: "PagSeguro",
+            duration: "2020 - 2021",
+            link: "https://pagseguro.uol.com.br/",
+            position: "Analista de Sistem Senior",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "Lab3Dvlp",
+            duration: "2018-2020",
+            link: "https://lab3dvlp.com/",
+            position: "Tech Leader",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "Vagalume Midia",
+            duration: "2018-2018",
+            link: "https://www.vagalume.com.br/",
+            position: "UX Designer - Freelancer",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "ViViTech",
+            duration: "2018-2018",
+            link: "#",
+            position: "Desenvolvedor Senior",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "Token Group",
+            duration: "2017-2018",
+            link: "#",
+            position: "Desenvolvedor Senior",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "Medlynx",
+            duration: "2015-2017",
+            link: "https://medlynx.com.br/",
+            position: "Desenvolvedor Pleno",
+            description:
+                "Owing to advancements in product other designer technologies aute voluptate.",
+        },
+        {
+            platform: "SkilDesign",
+            duration: "2012-2013",
+            link: "https://agency-pro.com/",
+            position: "Fundador",
             description:
                 "Owing to advancements in product other designer technologies aute voluptate.",
         },
@@ -397,42 +548,57 @@ export const educations = {
     educationsHeading: {
         icon: "",
         title: "",
-        heading: "My",
-        coloredHeading: "Education",
+        heading: "Minha",
+        coloredHeading: "Educação",
         description:
             "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
     },
-    educationsData: [
-        {
-            institution: "Oxford University",
-            duration: "2016-2018",
-            degree: "Diploma in Computer",
-            description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
-        },
-        {
-            institution: "Google",
-            duration: "2018 - 2022",
-            degree: "BSc in Engineering",
-            description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
-        },
-        {
-            institution: "Oxford University",
-            duration: "2014-2018",
-            degree: "Php Development",
-            description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
-        },
-    ],
+    educationsData:
+        [
+            {
+                institution: "Universidade Estácio de Sá",
+                duration: "2021-2026",
+                degree: "Sistemas da Informação",
+                description:
+                    "Curso focado em desenvolver habilidades em análise de sistemas, programação, gestão de banco de dados e segurança da informação, preparando profissionais para enfrentar os desafios do mercado de TI.",
+            },
+            {
+                institution: "IFS - Instituto Federal de Educação, Ciência e Tecnologia de Sergipe - (Trancado)",
+                duration: "2015 - 2016",
+                degree: "Bacharelado em Matemática",
+                description:
+                    "Estudos em fundamentos matemáticos, estatística, cálculo e álgebra, com foco no desenvolvimento de habilidades analíticas e de resolução de problemas complexos.",
+            },
+            {
+                institution: "Microlins",
+                duration: "2014-2014",
+                degree: "Curso C# Básico, Intermediário e Avançado",
+                description:
+                    "Curso intensivo de C# cobrindo desde os conceitos básicos até técnicas avançadas de programação, incluindo desenvolvimento de aplicações desktop e web.",
+            },
+            {
+                institution: "SofTeam",
+                duration: "2013-2014",
+                degree: "Curso Java SE",
+                description:
+                    "Curso prático em Java Standard Edition, abordando desde os fundamentos da linguagem até a criação de aplicações robustas e seguras utilizando Java.",
+            },
+            {
+                institution: "Colégio Estadual Professor Hamilton Alves Rocha",
+                duration: "2014-2018",
+                degree: "Ensino Médio",
+                description:
+                    "Formação completa no Ensino Médio.",
+            },
+        ],
 };
 
 export const portfolio = {
     portfolioHeading: {
         icon: <GrTasks className="text-theme"/>,
         title: "PORTFOLIO",
-        heading: "Featured ",
-        coloredHeading: "Projects",
+        heading: "Novos ",
+        coloredHeading: "Projetos",
         description:
             "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
     },
@@ -830,9 +996,9 @@ export const blogs = {
 export const testimonials = {
     testimonialsHeading: {
         icon: <BiCommentCheck className="text-theme"/>,
-        title: "TESTIMONIAL",
-        heading: "What",
-        coloredHeading: "People Say",
+        title: "TESTEMUNHO",
+        heading: "O que",
+        coloredHeading: "as pessoas dizem",
         description:
             "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
     },
@@ -882,17 +1048,17 @@ export const testimonials = {
 export const contactInfo = {
     contactInfoHeading: {
         icon: <FaRegEnvelopeOpen className="text-theme"/>,
-        title: "CONTACT",
-        heading: "Contact",
-        coloredHeading: "Me.",
+        title: "CONTATO",
+        heading: "Fale",
+        coloredHeading: "Comigo.",
         description:
             "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
     },
     contactInfoData: [
         {
             id: 1,
-            field: "Location",
-            data: "Brazil - SE",
+            field: "Localização",
+            data: "Brasil - SE",
             Icon: <LocationIcon/>,
         },
         {
@@ -903,8 +1069,8 @@ export const contactInfo = {
         },
         {
             id: 3,
-            field: "Phone",
-            data: "+55 34 99 99",
+            field: "Telefone",
+            data: "‪+55 79 98116‑0655‬",
             Icon: <PhoneIcon/>,
         },
     ],
