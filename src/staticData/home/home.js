@@ -15,7 +15,7 @@ import {
 import {GrTasks} from "react-icons/gr";
 import {BiCheckDouble, BiCommentCheck} from "react-icons/bi";
 
-import db from "@/public/assets/img/partners/db.svg";
+import db from "@/public/assets/img/partners/db.png";
 import willbank from "@/public/assets/img/partners/willbank.jpg";
 import invillia from "@/public/assets/img/partners/Invillia logo.png";
 import lab3dvlp from "@/public/assets/img/partners/lab3dvlp.png";
