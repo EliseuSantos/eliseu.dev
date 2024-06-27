@@ -39,7 +39,7 @@ const Testimonial = () => {
       <div className="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
         <SectionHeading {...testimonials?.testimonialsHeading} />
 
-        <div className="mt-12 testimonial-slider">
+        {/* <div className="mt-12 testimonial-slider">
           <div className="swiper">
             <div className="swiper-wrapper">
               <Swiper
@@ -116,7 +116,7 @@ const Testimonial = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

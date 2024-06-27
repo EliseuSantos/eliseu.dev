@@ -600,7 +600,7 @@ export const portfolio = {
         heading: "Novos ",
         coloredHeading: "Projetos",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            "......",
     },
     projectsData: [
         {
@@ -774,10 +774,10 @@ export const blogs = {
     blogsHeading: {
         icon: <FaBlog className="text-theme"/>,
         title: "BLOG",
-        heading: "Latest",
-        coloredHeading: "Insights",
+        heading: "Últimas",
+        coloredHeading: "Notícias",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            ".......",
     },
     blogsData: [
         {
@@ -1000,7 +1000,7 @@ export const testimonials = {
         heading: "O que",
         coloredHeading: "as pessoas dizem",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            "..............",
     },
     testimonialsData: [
         {

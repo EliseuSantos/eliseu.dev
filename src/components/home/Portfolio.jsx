@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
                 <SectionHeading {...portfolio?.portfolioHeading} />
 
-                <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
+                {/* <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
                     {portfolio?.projectsData?.map((portfolio, i) => (
                         <div
                             key={portfolio?.id}
@@ -56,7 +56,7 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     ))}
-                </div>
+                </div> */}
 
                 <div className="mt-10 text-center more-blogs md:mt-13">
                     <Button text="Mais Projetos"/>
