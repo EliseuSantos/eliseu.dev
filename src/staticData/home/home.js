@@ -563,7 +563,7 @@ export const educations = {
                     "Curso focado em desenvolver habilidades em análise de sistemas, programação, gestão de banco de dados e segurança da informação, preparando profissionais para enfrentar os desafios do mercado de TI.",
             },
             {
-                institution: "IFS - Instituto Federal de Educação, Ciência e Tecnologia de Sergipe - (Trancado)",
+                institution: "IFS - Instituto Federal de Educação, Ciência e Tecnologia de Sergipe",
                 duration: "2015 - 2016",
                 degree: "Bacharelado em Matemática",
                 description:
