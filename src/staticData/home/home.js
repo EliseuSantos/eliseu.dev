@@ -466,7 +466,7 @@ export const resume = {
         heading: "Minhas",
         coloredHeading: "Experiência",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            "..............xx",
     },
     resumeData: [
         {
@@ -475,7 +475,7 @@ export const resume = {
             link: "https://www.willbank.com.br",
             position: "Senior Software Engineer",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "Agency PRO",
@@ -483,7 +483,7 @@ export const resume = {
             duration: "Março, 2023 - Atualmente",
             position: "Co-Founder",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "PagSeguro",
@@ -491,7 +491,7 @@ export const resume = {
             link: "https://pagseguro.uol.com.br/",
             position: "Analista de Sistem Senior",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "Lab3Dvlp",
@@ -499,7 +499,7 @@ export const resume = {
             link: "https://lab3dvlp.com/",
             position: "Tech Leader",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "Vagalume Midia",
@@ -507,7 +507,7 @@ export const resume = {
             link: "https://www.vagalume.com.br/",
             position: "UX Designer - Freelancer",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "ViViTech",
@@ -515,7 +515,7 @@ export const resume = {
             link: "#",
             position: "Desenvolvedor Senior",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "Token Group",
@@ -523,7 +523,7 @@ export const resume = {
             link: "#",
             position: "Desenvolvedor Senior",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "Medlynx",
@@ -531,7 +531,7 @@ export const resume = {
             link: "https://medlynx.com.br/",
             position: "Desenvolvedor Pleno",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
         {
             platform: "SkilDesign",
@@ -539,7 +539,7 @@ export const resume = {
             link: "https://agency-pro.com/",
             position: "Fundador",
             description:
-                "Owing to advancements in product other designer technologies aute voluptate.",
+                "....... .............. xxxxxx",
         },
     ],
 };
@@ -551,7 +551,7 @@ export const educations = {
         heading: "Minha",
         coloredHeading: "Educação",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            "..............xx",
     },
     educationsData:
         [
