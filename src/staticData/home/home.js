@@ -1052,7 +1052,7 @@ export const contactInfo = {
         heading: "Fale",
         coloredHeading: "Comigo.",
         description:
-            "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+            ".........",
     },
     contactInfoData: [
         {

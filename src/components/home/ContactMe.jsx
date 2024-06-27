@@ -57,13 +57,13 @@ const ContactMe = () => {
                     <div className="md:col-span-7">
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div className="form-group">
-                                <Input handleChange={handleChange} value={fullName}
+                                <Input placeholder="Nome" handleChange={handleChange} value={fullName}
                                        className="w-full p-5 text-sm outline-none h-13 focus:border-theme dark:focus:border-theme dark:placeholder:text-white/40"/>
                             </div>
                             <div className="form-group">
                                 <Input
                                     type="email"
-                                    placeholder="Email Address"
+                                    placeholder="Email"
                                     handleChange={handleChange}
                                     name="email"
                                     value={email}
@@ -74,6 +74,7 @@ const ContactMe = () => {
                                 <Textarea
                                     handleChange={handleChange}
                                     name="message"
+                                    placeholder="Mensagem"
                                     value={message}
                                     className="w-full px-5 py-4 text-sm outline-none focus:border-theme dark:placeholder:text-white/40"
                                 />
