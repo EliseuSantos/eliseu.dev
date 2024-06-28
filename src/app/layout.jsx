@@ -13,6 +13,7 @@ import CustomCursor from "@/src/components/shared/CustomCursor";
 import {Poppins} from "next/font/google";
 import BackToTop from "@/src/components/shared/BackToTop";
 import ModeSwitcher from "@/src/components/shared/ModeSwitcher";
+import {siteSettings} from "@/src/staticData/siteSettings";
 import {ThemeProvider} from "../context/theme-provider";
 
 const poppins = Poppins({
@@ -30,6 +31,12 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="pt-BR" suppressHydrationWarning={true} className="scroll-smooth light">
+        <head>
+        <meta property='og:title' content='Eliseu Santos - Software Developer'/>
+        <meta property='og:image' content={siteSettings?.logo?.image}/>
+        <meta property='og:description' content='Blog Eliseu Santos - Software Developer'/>
+        <meta property='og:url' content='//www.eliseu.dev' />
+        </head>
         <body
             className={`${poppins.className} relative`}
             suppressHydrationWarning={true}

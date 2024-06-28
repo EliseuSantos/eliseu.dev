@@ -259,8 +259,8 @@ export const technologies = [
 export const userDetails = [
     {
         field: "Telefone",
-        value: "‪+55 79 98116‑0655‬",
-        link: "tel:‪+5579981160655‬"
+        value: "+55 79 98116‑0655",
+        link: "tel:+5579981160655"
     },
     {
         field: "Session",
@@ -269,12 +269,12 @@ export const userDetails = [
     },
     {
         field: "Idioma",
-        value: "Portuguese, English(Basic)",
+        value: "Português, Inglês(Básico)",
     },
     {
         field: "Email",
         value: "s.eliseu@proton.me",
-        link: "mailto:‪s.eliseu@proton.me‬"
+        link: "mailto:s.eliseu@proton.me"
     },
     {
         field: "GitHub",

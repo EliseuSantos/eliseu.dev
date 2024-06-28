@@ -18,9 +18,9 @@ export default async function Home() {
             <Service/>
             <Skills/>
             <Resume/>
-            <Portfolio/>
-            <Blog/>
-            <Testimonial/>
+            {/* <Portfolio/> */}
+            {/* <Blog/> */}
+            {/* <Testimonial/> */}
             <ContactMe/>
             <Footer/>
         </Layout>

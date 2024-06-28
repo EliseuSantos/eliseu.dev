@@ -2,10 +2,7 @@
 
 import {skills} from "@/src/staticData/home/home";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {useEffect, useRef, useState} from "react";
-import VisibilitySensor from "react-visibility-sensor";
-import {CircularProgressbarWithChildren} from "react-circular-progressbar";
-import CountUp from "react-countup";
+import {useRef, useState} from "react";
 import SectionHeading from "../shared/SectionHeading";
 import {BsArrowLeft, BsArrowRight} from "react-icons/bs";
 import Image from "next/image";
@@ -13,13 +10,6 @@ import Image from "next/image";
 const Skills = () => {
     const [activeSlide, setActiveSlide] = useState(0);
     const swiperRef = useRef(null);
-    const [change, setChange] = useState(false);
-    const [counterStarted, setCounterStarted] = useState(false);
-
-    useEffect(() => {
-        setChange(false);
-        setCounterStarted(false);
-    }, []);
 
     const navigateToPreviousSlide = () => {
         if (swiperRef.current) {
@@ -83,69 +73,6 @@ const Skills = () => {
                                     <SwiperSlide key={i}>
                                         <div className="space-y-5 text-center swiper-slide">
                                             <Image src={skill?.image} width={60} height={60} alt={skill?.name}/>
-                                            <div className="!w-25 !h-25 md:!w-25 md:!h-25 mx-auto">
-                                                <CountUp
-                                                    start={0}
-                                                    end={skill?.percent}
-                                                    duration={5}
-                                                    suffix="%"
-                                                >
-                                                    {({countUpRef, start}) => (
-                                                        <VisibilitySensor
-                                                            onChange={(visible) => {
-                                                                if (visible && !counterStarted) {
-                                                                    setCounterStarted(true);
-                                                                    start();
-                                                                    setChange(true);
-                                                                }
-                                                            }}
-                                                        >
-                                                            {({isVisible}) => {
-                                                                const percentage =
-                                                                    isVisible || change ? skill?.percent : 0;
-
-                                                                return (
-                                                                    <CircularProgressbarWithChildren
-                                                                        strokeWidth={1}
-                                                                        styles={{
-                                                                            root: {},
-                                                                            path: {
-                                                                                stroke: "#02B189",
-                                                                                transition: change
-                                                                                    ? "stroke-dashoffset 0.5s ease 0s"
-                                                                                    : "none",
-                                                                                transform: "rotate(0.25turn)",
-                                                                                transformOrigin: "center center",
-                                                                            },
-                                                                            trail: {
-                                                                                stroke: "#B7B7B7",
-                                                                                strokeLinecap: "butt",
-                                                                                transform: "rotate(0.25turn)",
-                                                                                transformOrigin: "center center",
-                                                                            },
-                                                                            text: {},
-                                                                            background: {
-                                                                                fill: "#3e98c7",
-                                                                            },
-                                                                        }}
-                                                                        value={percentage}
-                                                                    >
-                                                                        <div className="text-center">
-                                                                            <div
-                                                                                className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"
-                                                                                ref={countUpRef}
-                                                                            >
-                                                                                <span></span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </CircularProgressbarWithChildren>
-                                                                );
-                                                            }}
-                                                        </VisibilitySensor>
-                                                    )}
-                                                </CountUp>
-                                            </div>
-
                                             <div className="text-black dark:text-white name">
                                                 {skill?.name}
                                             </div>

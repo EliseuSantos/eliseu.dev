@@ -4,21 +4,9 @@ import TypeWriterComp from "@/src/components/shared/TypeWriterComp";
 import {userDetailsSidebar} from "@/src/staticData/home/home";
 import Image from "next/image";
 import Link from "next/link";
-import VisibilitySensor from "react-visibility-sensor";
-import {CircularProgressbarWithChildren} from "react-circular-progressbar";
-import CountUp from "react-countup";
-import {useEffect, useState} from "react";
 import {IoCloudDownloadOutline} from "react-icons/io5";
 
 const SidebarProfile = () => {
-    const [change, setChange] = useState(false);
-    const [counterStarted, setCounterStarted] = useState(false);
-
-    useEffect(() => {
-        setChange(false);
-        setCounterStarted(false);
-    }, []);
-
     return (
         <div
             className="w-full mx-auto eliseu__sidebar__wrapper xl:fixed xl:top-1/2 xl:left-4 2xl:left-14 xl:-translate-y-1/2 sm:max-w-sidebar xl:max-2xl:max-w-xs z-999">
@@ -76,72 +64,6 @@ const SidebarProfile = () => {
                                 key={item?.id}
                                 className="space-y-2 text-center progressCircle"
                             >
-                                <CountUp
-                                    start={0}
-                                    end={item?.value}
-                                    duration={5}
-                                    // redraw={true}
-                                    suffix="%"
-                                >
-                                    {({countUpRef, start}) => (
-                                        <VisibilitySensor
-                                            onChange={(visible) => {
-                                                if (visible && !counterStarted) {
-                                                    setCounterStarted(true);
-                                                    start();
-                                                    setChange(true);
-                                                }
-                                            }}
-                                        >
-                                            {({isVisible}) => {
-                                                const percentage =
-                                                    isVisible || change ? item?.value : 0;
-
-                                                return (
-                                                    <CircularProgressbarWithChildren
-                                                        strokeWidth={3}
-                                                        className="relative w-12 h-12 circle"
-                                                        styles={{
-                                                            root: {},
-                                                            path: {
-                                                                stroke: "#02B189",
-                                                                transition: change
-                                                                    ? "stroke-dashoffset 0.5s ease 0s"
-                                                                    : "none",
-                                                                transform: "rotate(0.25turn)",
-                                                                transformOrigin: "center center",
-                                                            },
-                                                            // background: "red",
-                                                            trail: {
-                                                                stroke: "#B7B7B7",
-                                                                strokeLinecap: "butt",
-                                                                transform: "rotate(0.25turn)",
-                                                                transformOrigin: "center center",
-                                                            },
-                                                            text: {
-                                                                // fill: '#f88',
-                                                                // fontSize: '16px',
-                                                            },
-                                                            background: {
-                                                                fill: "#3e98c7",
-                                                            },
-                                                        }}
-                                                        value={percentage}
-                                                    >
-                                                        <div
-                                                            className="absolute inset-0 text-[13px] font-medium label flex-center"
-                                                            ref={countUpRef}
-                                                        >
-                                                            <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
-                                                                {percentage}
-                                                            </p>
-                                                        </div>
-                                                    </CircularProgressbarWithChildren>
-                                                );
-                                            }}
-                                        </VisibilitySensor>
-                                    )}
-                                </CountUp>
                                 <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
                                     {item?.name}
                                 </p>
