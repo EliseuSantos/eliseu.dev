@@ -15,6 +15,7 @@ import BackToTop from "@/src/components/shared/BackToTop";
 import ModeSwitcher from "@/src/components/shared/ModeSwitcher";
 import {siteSettings} from "@/src/staticData/siteSettings";
 import {ThemeProvider} from "../context/theme-provider";
+import { Analytics } from "@vercel/analytics/react"
 
 const poppins = Poppins({
     weight: ["200", "300", "400", "500", "600", "700"],
@@ -49,6 +50,7 @@ export default function RootLayout({children}) {
                 {/*<ModeSwitcher/>*/}
             </main>
         </ThemeProvider>
+        <Analytics />
         </body>
         </html>
     );
