@@ -1050,7 +1050,7 @@ export const contactInfo = {
         {
             id: 3,
             field: "Telefone",
-            data: "‪+55 79 98116‑0655‬",
+            data: "+55 79 996390195",
             Icon: <PhoneIcon/>,
         },
     ],
