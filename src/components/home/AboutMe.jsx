@@ -31,13 +31,7 @@ const AboutMe = () => {
                         <span className="text-black dark:text-white">
               {userDetailsSidebar?.userName}
             </span>{" "}
-                        tenho 29 anos e sou desenvolvedor <span
-                        className="text-black dark:text-white">Fullstack</span> com mais de 10 anos de experiência em
-                        tecnologia e
-                        desenvolvimento de software.
-                    </p>
-                    <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-                        Possuo expertise em <span
+                        tenho 29 anos, possuo expertise em <span
                         className="text-black dark:text-white">frontend</span> e <span
                         className="text-black dark:text-white">backend</span>, com destaque para <span
                         className="text-black dark:text-white">microfrontends</span>, criando soluções
@@ -68,7 +62,7 @@ const AboutMe = () => {
                         ))}
                     </ul>
 
-                    <ul className="grid grid-cols-2 gap-6 counters md:grid-cols-4 xl:gap-8">
+                    <ul className="grid grid-cols-2 gap-6 counters md:grid-cols-3 xl:gap-8">
                         {projectExperiences?.map((exp, i) => (
                             <ProjectExperience key={i} {...exp} />
                         ))}

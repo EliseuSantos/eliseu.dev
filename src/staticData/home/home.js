@@ -109,7 +109,7 @@ export const introduce = {
         },
         {
             id: 2,
-            title: "Consultoria MFE",
+            title: "Consultoria",
             icon: <BiCheckDouble size={25} className="text-theme mr-1"/>,
         },
     ],
@@ -292,7 +292,7 @@ export const userDetailsSidebar = {
     userImage: userImage,
     userImageLight: userImageLight,
     userName: "Eliseu",
-    designations: ["Software Developer", "Musician", "Blockchain Developer"],
+    designations: ["Desenvolvedor de Software", "Músico", "Desenvolvedor Blockchain"],
     basicInfo: [
         {
             id: 1,
@@ -350,11 +350,11 @@ export const projectExperiences = [
         count: 5,
         postFix: true,
     },
-    {
-        title: "Prêmios conquistados",
-        count: 0,
-        postFix: false,
-    },
+    // {
+    //     title: "Prêmios conquistados",
+    //     count: 0,
+    //     postFix: false,
+    // },
 ];
 
 export const services = {
@@ -378,13 +378,13 @@ export const services = {
             "id": 2,
             "number": "02",
             "title": "Consultoria",
-            "desc": "Especialista em MicroFrontEnd e otimização de performance e SEO.",
+            "desc": "Consultoria especializada em MicroFrontEnd e otimização de performance e SEO.",
             "icon": <SeoIcon/>,
         },
         {
             "id": 3,
             "number": "03",
-            "title": "IoT/CFTV",
+            "title": "IOT/CFTV",
             "desc": "Projetos completos de automação residencial e sistemas de CFTV eficientes.",
             "icon": <UiUxIcon/>,
         },
@@ -466,7 +466,7 @@ export const resume = {
         heading: "Minhas",
         coloredHeading: "Experiência",
         description:
-            "..............xx",
+            "",
     },
     resumeData: [
         {
@@ -474,72 +474,54 @@ export const resume = {
             duration: "Junho, 2021 - Atualmente",
             link: "https://www.willbank.com.br",
             position: "Senior Software Engineer",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "Agency PRO",
             link: "https://agency-pro.com/",
             duration: "Março, 2023 - Atualmente",
-            position: "Co-Founder",
-            description:
-                "....... .............. xxxxxx",
+            position: "Founder",
         },
         {
             platform: "PagSeguro",
             duration: "2020 - 2021",
             link: "https://pagseguro.uol.com.br/",
             position: "Analista de Sistem Senior",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "Lab3Dvlp",
             duration: "2018-2020",
             link: "https://lab3dvlp.com/",
             position: "Tech Leader",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "Vagalume Midia",
             duration: "2018-2018",
             link: "https://www.vagalume.com.br/",
             position: "UX Designer - Freelancer",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "ViViTech",
             duration: "2018-2018",
             link: "#",
             position: "Desenvolvedor Senior",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "Token Group",
             duration: "2017-2018",
             link: "#",
             position: "Desenvolvedor Senior",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "Medlynx",
             duration: "2015-2017",
             link: "https://medlynx.com.br/",
             position: "Desenvolvedor Pleno",
-            description:
-                "....... .............. xxxxxx",
         },
         {
             platform: "SkilDesign",
             duration: "2012-2013",
-            link: "https://agency-pro.com/",
-            position: "Fundador",
-            description:
-                "....... .............. xxxxxx",
+            link: "#",
+            position: "Founder",
         },
     ],
 };
@@ -550,8 +532,6 @@ export const educations = {
         title: "",
         heading: "Minha",
         coloredHeading: "Educação",
-        description:
-            "..............xx",
     },
     educationsData:
         [

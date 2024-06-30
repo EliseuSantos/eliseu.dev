@@ -9,6 +9,12 @@ import IntroduceJob from "./IntroduceJob";
 import TrustedCompany from "./TrustedCompany";
 
 const Hero = () => {
+    const scrollToContact = () => {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
     return (
         <div
             data-scroll-index="0"
@@ -35,7 +41,7 @@ const Hero = () => {
                         </ul>
                         <ul className="mt-7 buttons">
                             <li data-scroll-nav="8">
-                                <Button text="CONTRATE-ME" prefix={<IoMdPaperPlane size={18}/>}/>
+                                <a className={'inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover'} href="#contact"><IoMdPaperPlane /> CONTRATE-ME</a>
                             </li>
                         </ul>
                     </div>
