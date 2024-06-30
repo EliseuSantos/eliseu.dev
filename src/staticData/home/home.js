@@ -259,8 +259,8 @@ export const technologies = [
 export const userDetails = [
     {
         field: "Telefone",
-        value: "+55 79 98116‑0655",
-        link: "tel:+5579981160655"
+        value: "+55 79 996390195",
+        link: "tel:+5579996390195"
     },
     {
         field: "Session",
